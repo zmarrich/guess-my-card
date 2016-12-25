@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8">
+<title>Guess My Card</title>
+</head>
+
+<body>
+
+<form method="post" action="guessmycard.cgi">
+	<H2>Try to guess the card!</H2>
+	<p>Rank:
+		<select name="rank">
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>J</option>
+			<option>Q</option>
+			<option>K</option>
+			<option>A</option>
+		</select>
+	</p>
+	<p>Suit:
+		<br /><input type="radio" name="suit" value="C" />Clubs
+		<br /><input type="radio" name="suit" value="D" />Diamonds
+		<br /><input type="radio" name="suit" value="H" />Hearts
+		<br /><input type="radio" name="suit" value="S" />Spades
+	</p>
+	<button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
